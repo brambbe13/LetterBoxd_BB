@@ -1,7 +1,7 @@
 import { By, until, WebDriver } from "selenium-webdriver";
 
 const chromedriver = require("chromedriver");
-const geckodriver = require("geckodriver")
+//const geckodriver = require("geckodriver")
 
 export class BasePage {
     driver: WebDriver;
